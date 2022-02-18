@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import './file1.css';
 import './App.css';
-
+import './ui.css';
+import './ui2.css';
+import './fonts.css';
+import './fontttt.css';
+import './animation.css';
+// import './dialog.css';
+import './elementor.css';
+import './font1.css';
+import './font2.css';
+import './ant.css';
+import './font3.css';
+import './font4.css';
+import './font5.css';
+import './font_main.css';
+import Home from './home/home';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="body-color">
+      <Home/>
     </div>
   );
 }
